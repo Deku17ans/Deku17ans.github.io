@@ -38,6 +38,10 @@
   main h1 {
     padding-top: 90px!important;
   }
+  
+  .about table {
+    width: 80%;
+  } 
 }
 
 header {
