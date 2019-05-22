@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@media(max-width: 670px){
+  .header-logo {
+    font-size: 25px;
+    background-color: #0C4B33;
+    width: 100%;
+    text-align: center!important;
+    padding: 20px 0!important;
+    border-bottom: 1px solid white;
+  }
+
+  .header-list  {
+    width: 100%;
+    background-color: #0C4B33;
+  }
+
+  .header-list a {
+    width: 20%!important;
+    float: left;
+    padding: 30px 0px!important;
+    margin: 0;
+    font-size: 15px!important;
+  }
+
+  main h1 {
+    padding-top: 90px!important;
+  }
+}
+
+body {
+  font-family:'Noto Sans Japanese', sans-serif;
+}
+
+header {
+  background-color: #0C4B33;
+  height: 100px;
+  color: white;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+}
+
+.header-logo {
+  font-size: 30px;
+  padding: 25px 40px;
+  float: left;
+  text-align: center;
+  margin: 0;
+}
+
+.header-list {
+  float: right;
+}
+
+.header-list a {
+  font-size: 20px;
+  margin: 0;
+  display: inline-block;
+  float: left;
+  background-color: #0C4B33;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 35px 40px;
+  margin: 0;
+  transition: 0.6s;
+}
+
+.header-list a:hover {
+  background-color: #44B78B;
+}
+
+main {
+  background-color: white;
+  height: 1200px;
+  position: absolute;
+  top: 100px;
+  z-index: 5;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+main h1 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Noto Sans Japanese", sans-serif;
+  font-weight: 300;
+  padding-top: 20px
+}
+
+.languages {
+  display: inline-block;
+  text-align: center;
+  max-width: 1200px;
+}
+
+section {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #44B78B;
+  border-radius: 30px;
+  margin: 30px 20px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+section h2 {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+section h3 {
+  display: inline-block;
+  text-align: center;
+  padding: 0px 40px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+section p {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+}
