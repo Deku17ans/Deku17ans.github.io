@@ -52,9 +52,6 @@ header {
   color: white;
 }
 
-.header-list {
-  float: right;
-}
 
 .header-list a {
   font-size: 20px;
@@ -65,9 +62,10 @@ header {
   color: white;
   text-decoration: none;
   text-align: center;
-  padding: 35px 40px;
   margin: 0;
   transition: 0.6s;
+  width: 20%!important;
+  padding: 35px 0px;
 }
 
 .header-list a:hover {
