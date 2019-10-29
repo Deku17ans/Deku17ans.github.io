@@ -131,3 +131,23 @@ main h1 {
 .about a {
   text-decoration: none;
 }
+
+
+.experience table {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 50px 10px;
+  display: block;
+}
+
+.experience th {
+  display: inline-block;
+  font-size: 20px;
+  padding: 4px 35px 4px 0px;
+}
+
+.experience td {
+  font-size: 20px;
+  padding: 4px 0px 4px 0px;
+}
