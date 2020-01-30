@@ -24,7 +24,7 @@
 
   .copy-container h1 {
     font-size: 55px!important;
-    font-family: sans-serif;
+    font-family: 'sans-serif';
 
   }
 
@@ -38,7 +38,7 @@ header {
   z-index: 10;
   position: fixed;
   top: 0;
-  font-family:'Noto Sans Japanese', sans-serif;
+  font-family:'sans-serif';
 }
 
 .header-logo {
